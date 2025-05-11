@@ -54,3 +54,26 @@ This shows:  <br>
  - Owner has full access (rwx)  <br>
  - Group can read and execute  <br>
  - Others can only read  <br>
+
+<hr>
+
+📦 **Package Management**
+
+ - Debian-based (Ubuntu): apt, dpkg
+   - Example: sudo apt install nginx
+
+ - RedHat-based (Fedora/CentOS): yum, dnf, rpm
+   - Example: sudo dnf install nginx
+
+<hr>
+  
+🧠 **Process Management**
+
+ - ps – Show running processes
+ - top / htop – Interactive process viewer
+ - kill – Stop process by PID
+ - & – Run command in background
+ - jobs, fg, bg – Job control
+
+
+
