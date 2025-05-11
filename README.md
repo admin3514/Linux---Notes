@@ -50,7 +50,7 @@ Linux uses 3 types of access:  <br>
 -rwxr-xr--
 ```
 
-This shows:  <br>
+This shows :  <br>
  - Owner has full access (rwx)  <br>
  - Group can read and execute  <br>
  - Others can only read  <br>
@@ -59,11 +59,11 @@ This shows:  <br>
 
 📦 **Package Management**
 
- - Debian-based (Ubuntu): apt, dpkg
-   - Example: sudo apt install nginx
+ - Debian-based (Ubuntu) : apt, dpkg
+   - Example : sudo apt install nginx
 
- - RedHat-based (Fedora/CentOS): yum, dnf, rpm
-   - Example: sudo dnf install nginx
+ - RedHat-based (Fedora/CentOS) : yum, dnf, rpm
+   - Example : sudo dnf install nginx
 
 <hr>
   
@@ -108,16 +108,17 @@ echo "Hello, $USER"
 ⏱️ **Startup and Services**
 
  - systemctl – Manage system services  <br>
-  - Example: sudo systemctl start apache2  <br>
+  - Example : sudo systemctl start apache2  <br>
  - cron – Schedule tasks  <br>
-  - Edit with: crontab -e  <br>
+  - Edit with : crontab -e  <br>
 
 <hr>
 
 🛠️ **Common Admin Tasks**
 
- - User management: adduser, passwd, deluser  <br>
- - Disk usage: df, du  <br>
- - Searching: grep, find, locate  <br>
- - Logs: Located in /var/log/  <br>
+ - User management : adduser, passwd, deluser  <br>
+ - Disk usage : df, du  <br>
+ - Searching : grep, find, locate  <br>
+ - Logs : Located in /var/log/  <br>
 
+<hr>
