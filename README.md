@@ -37,3 +37,20 @@
  - File System – Organizes and stores data.
 
 <hr>
+
+🔐 **File Permissions**
+
+Linux uses 3 types of access:  <br>
+ - Read (r) – View contents  <br>
+ - Write (w) – Modify contents  <br>
+ - Execute (x) – Run file  <br>
+
+ **File permission format example:**
+ ```ssh
+-rwxr-xr--
+```
+
+This shows:  <br>
+ - Owner has full access (rwx)  <br>
+ - Group can read and execute  <br>
+ - Others can only read  <br>
