@@ -44,26 +44,26 @@
 
 | Directory | Description                                                                                       |
 | --------- | ------------------------------------------------------------------------------------------------- |
-|  /        | **Root** – The top of the filesystem. All directories stem from here.                             |
-|  /bin     | **Essential user binaries** – Common system commands (e.g., `ls`, `cp`). Available for all users. |
-|  /boot    | **Boot files** – Contains the kernel, bootloader (like GRUB), and initramfs.                      |
-|  /dev     | **Device files** – Represents hardware devices as files (e.g., `/dev/sda`).                       |
-|  /etc     | **Configuration files** – System-wide configuration for programs and services.                    |
-|  /home    | **User directories** – Personal directories for each user (e.g., `/home/alex`).                   |
-|  /lib     | **Shared libraries** – Libraries needed by binaries in `/bin` and `/sbin`.                        |
-|  /lib64   | **64-bit libraries** – Same as `/lib`, but for 64-bit systems.                                    |
-|  /media   | **Removable media mount points** – Auto-mounted devices like USB drives, CDs.                     |
-|  /mnt     | **Temporary mount points** – Used by system admins to mount storage temporarily.                  |
-|  /opt     | **Optional software** – Third-party software and add-on packages.                                 |
-|  /proc    | **Process and kernel info** – Virtual filesystem providing info about processes.                  |
-|  /root    | **Root user’s home** – Home directory of the root (admin) user.                                   |
-|  /run     | **Runtime data** – Temporary system information since last boot (like PID files).                 |
-|  /sbin    | **System binaries** – Essential commands used by root/admin (e.g., `ifconfig`, `reboot`).         |
-|  /srv     | **Service data** – Data served by system services (e.g., web/ftp data).                           |
-|  /sys     | **System device info** – Virtual filesystem providing hardware and kernel info.                   |
-|  /tmp     | **Temporary files** – Files stored temporarily. Often cleared on reboot.                          |
-|  /usr     | **User programs and data** – Contains apps, libraries, docs, and binaries for all users.          |
-|  /var     | **Variable data** – Logs, spools, and files that change often (e.g., `/var/log`).                 |
+|  /        |  Root – The top of the filesystem. All directories stem from here.                             |
+|  /bin     |  Essential user binaries** – Common system commands (e.g., `ls`, `cp`). Available for all users. |
+|  /boot    |  Boot files** – Contains the kernel, bootloader (like GRUB), and initramfs.                      |
+|  /dev     |  Device files** – Represents hardware devices as files (e.g., `/dev/sda`).                       |
+|  /etc     |  Configuration files** – System-wide configuration for programs and services.                    |
+|  /home    |  User directories** – Personal directories for each user (e.g., `/home/alex`).                   |
+|  /lib     |  Shared libraries** – Libraries needed by binaries in `/bin` and `/sbin`.                        |
+|  /lib64   |  64-bit libraries** – Same as `/lib`, but for 64-bit systems.                                    |
+|  /media   |  Removable media mount points** – Auto-mounted devices like USB drives, CDs.                     |
+|  /mnt     |  Temporary mount points** – Used by system admins to mount storage temporarily.                  |
+|  /opt     |  Optional software** – Third-party software and add-on packages.                                 |
+|  /proc    |  Process and kernel info** – Virtual filesystem providing info about processes.                  |
+|  /root    |  Root user’s home** – Home directory of the root (admin) user.                                   |
+|  /run     |  Runtime data** – Temporary system information since last boot (like PID files).                 |
+|  /sbin    |  System binaries** – Essential commands used by root/admin (e.g., `ifconfig`, `reboot`).         |
+|  /srv     |  Service data** – Data served by system services (e.g., web/ftp data).                           |
+|  /sys     |  System device info** – Virtual filesystem providing hardware and kernel info.                   |
+|  /tmp     |  Temporary files** – Files stored temporarily. Often cleared on reboot.                          |
+|  /usr     |  User programs and data** – Contains apps, libraries, docs, and binaries for all users.          |
+|  /var     |  Variable data** – Logs, spools, and files that change often (e.g., `/var/log`).                 |
 
 ```
 
