@@ -103,3 +103,11 @@ Simple script: <br>
 echo "Hello, $USER"
 ```
 
+<hr>
+
+⏱️ **Startup and Services**
+
+ - systemctl – Manage system services  <br>
+  - Example: sudo systemctl start apache2  <br>
+ - cron – Schedule tasks  <br>
+  - Edit with: crontab -e  <br>
