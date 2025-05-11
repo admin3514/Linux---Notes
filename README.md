@@ -75,5 +75,31 @@ This shows:  <br>
  - & – Run command in background
  - jobs, fg, bg – Job control
 
+<hr>
 
+📄 **Networking Commands**
+
+| Command             | Description                   |
+| ------------------- | ----------------------------- |
+|  ifconfig /  ip a   | Show IP addresses             |
+|  ping               | Check connectivity            |
+|  netstat            | Show network connections      |
+|  ss                 | Newer alternative to netstat  |
+|  scp  /  rsync      | Secure file transfer          |
+|  ssh                | Secure shell to remote system |
+
+<hr>
+
+🧪 **Shell Scripting (Basics)**
+
+Shell scripts are saved with **.sh** and run using:  
+```ssh
+bash script.sh
+```
+
+Simple script: <br>
+```ssh
+#!/bin/bash
+echo "Hello, $USER"
+```
 
