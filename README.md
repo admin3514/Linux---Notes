@@ -111,3 +111,13 @@ echo "Hello, $USER"
   - Example: sudo systemctl start apache2  <br>
  - cron – Schedule tasks  <br>
   - Edit with: crontab -e  <br>
+
+<hr>
+
+🛠️ **Common Admin Tasks**
+
+ - User management: adduser, passwd, deluser  <br>
+ - Disk usage: df, du  <br>
+ - Searching: grep, find, locate  <br>
+ - Logs: Located in /var/log/  <br>
+
