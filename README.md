@@ -1,4 +1,4 @@
-# Linux - Notes
+# linux - notes
 
 ✅ **What is Linux?** <br>
 
